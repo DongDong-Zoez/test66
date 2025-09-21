@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+SQLAlchemy>=2.0
+psycopg[binary]
+boto3
+celery[redis]
+pillow
+pymupdf
+magika
+weasyprint     # (選用) HTML→PDF，若沒裝會自動用 Chrome/Chromium 後備
+loguru
+mineru
+
